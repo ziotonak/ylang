@@ -1,0 +1,4 @@
+# Prevent files with .y extension from being detected as Yacc files by GitHub Linguist
+# See https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#detectable
+ex/*.y -linguist-detectable
+
